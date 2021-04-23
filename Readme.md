@@ -5,78 +5,84 @@ A device that bridges the communication between Loop software application and Om
 ### Charging
 
 You can use any micro USB charges from a phone, tablet, headset or other devices. You can even use a powerbank to charge it if it has a micro USB cable. 
-Charging is considered finished after the red led (the one close to the USB connector) is turning off. It may take up to 3 hours for 3XS or XS to fully charge, up to 4 hours for Medium and up to 5 hours for Maxx.
-
+Charging is considered finished after the red led (the one close to the USB connector) is turning off. It may take up to 3 hours for Nano or Micro to fully charge, up to 5 hours for Standard or Maxx.
 
 ### LED Lights
 
 There are 3 leds on the back of the device: a red one, close to the micro USB charing port, and a red + green cluster on the other side. 
 When you switch-on EmaLink, the red + green cluster will light-up for 1 second. 
-When you connect EmaLink to AAPS on Loop over bluetooth, the green led will start blinking every 1.5 seconds. The green led will stop blinking once battery is almost depleted.
+When you connect EmaLink to AAPS on Loop over bluetooth, the green led will start blinking every 3 seconds. The green led will stop blinking once battery is almost depleted.
 The red led will start blinking once battery is almost depleted, you should consider charging it in the next few hours.
 
 ### Case
 
 I have designed a new case to be 3D printed with TPU material. TPU is a flexbile material that cannot be shattered, this makes EmaLink
-drop proof. You will still break it if you step on it ...
+drop proof. There are several case styles to chose from, pick the one that makes most sense for your needs.
 
-As of Oct 2020, the following EmaLink versions are available:
+Chosing the right case:
+* "I keep EmaLink with me most time, the smaller - the better" - Nano is the way to go
+* "Having the best range while keeping a small size is important to me" - Micro is the perfect fit
+* "Give me a product that has great range, can be charged once per week and can survive through drops and splashes" - Standard fits the bill
+* "I keep forgeting to charge devices, can I have the biggest battery?" - Go for Maxx 
 
-**EmaLink Medtronic Maxx** (PCB: 3.8/3.9, Battery 1050mAh)
-* Size: 55x40x21 mm, oval design [Tinkercad](https://www.tinkercad.com/things/aMPzEObGEE7)
-* Weight: 34g
+As of Mar 2021, the following EmaLink versions are available:
+
+**Now thinner and splash-proof! EmaLink Maxx** (PCB: 4.x, Battery 850mAh)
+![Case](https://github.com/sks01/EmaLink/blob/master/pictures/NewMaxx.png)
+* Size: 55x40x17 mm, oval design with 2 caps, dustproof, splash resistant [Tinkercad](https://www.tinkercad.com/things/2sOWkvGTfb7)
+* Weight: 38g
 * Battery life:
-    * Loop/FreeAPS with Medtronic 523, 554, 723 or 754 pumps  - 4 days (due to MySentry feature, EmaLink uses much more power, which impacts the battery life)
-    * Loop/FreeAPS with other Medtronic pumps - 9+ days
-    * AndroidAPS with Medtronic pumps: 9+ days
-    * Not available for Omnipod
+    *	Loop/FreeAPS with Omnipod pod: 30 days
+    * Loop/FreeAPS with Medtronic 523, 554, 723 or 754 pumps  - 4 days (due to MySentry feature, EmaLink uses much more power, which impacts the battery life); With MySentry disabled, battery life increases to 18 days
+    * Loop/FreeAPS with other Medtronic pumps - 18 days
+    * AndroidAPS with Omnipod pods: 18 days
+    * AndroidAPS with Medtronic pumps: 14 days
 
-![Case](https://github.com/sks01/EmaLink/blob/master/pictures/Maxx.png)
-
-**EmaLink Medium** (PCB: 3.7/3.8/3.9, Battery: 550mAh)
-*	Size: 43x40x18mm, square with 2 caps, dustproof, splash resistant [Tinkercad](https://www.tinkercad.com/things/3494lPR24DK)
+**EmaLink Standard** (PCB: 4.x, Battery: 500mAh)
+![Case](https://github.com/sks01/EmaLink/blob/master/pictures/Medium.png)
+*  Size: 43x40x18mm, square with 2 caps, dustproof, splash resistant [Tinkercad](https://www.tinkercad.com/things/3494lPR24DK)
 *	Weight: 24g
 *	Battery life: 
-    *	Loop/FreeAPS with Omnipod pod: 7-8 days
-    *	Loop/FreeAPS with Medtronic 523, 554, 723 or 754 pumps  - 2 days (due to MySentry feature, EmaLink uses much more power, which impacts the battery life)
-    *	Loop/FreeAPS with other Medtronic pumps: 5-6 days
-    * AndroidAPS with Omnipod pods: 7-8 days
-    *	AndroidAPS with Medtronic pumps: 3 days
+    *	Loop/FreeAPS with Omnipod pod: 17 days
+    *	Loop/FreeAPS with Medtronic 523, 554, 723 or 754 pumps  - 2 days (due to MySentry feature, EmaLink uses much more power, which impacts the battery life); With MySentry disabled, battery life increases to 10 days
+    *	Loop/FreeAPS with other Medtronic pumps: 10 days
+    * AndroidAPS with Omnipod pods: 17 days
+    *	AndroidAPS with Medtronic pumps: 7 days
 
-![Case](https://github.com/sks01/EmaLink/blob/master/pictures/Medium.png)
-
-**EmaLink XS** (PCB: 3.7/3.8/3.9, Battery: 310mAh) 
-*	Size: 42x40x15mm, square with 2 caps, dustproof, splash resistant [Tinkercad](https://www.tinkercad.com/things/bysJBdyaAnK)
-*	Weight: 23g
+**EmaLink Micro** (PCB: 4.x, Battery: 250mAh) 
+![Case](https://github.com/sks01/EmaLink/blob/master/pictures/Micro.png)
+*	This is the smallest version of EmaLink optimized for use away from your body. If you cary EmaLink with you most time, go for Nano. If you have a mixed usage, try Standard.
+*  Size: 43x41x12mm, dustproof, splash resistant, square [Tinkercad](https://www.tinkercad.com/things/kaO3JdWCOXo)
+*	Weight: 20g
 *	Battery life: 
-    * Loop/FreeAPS with Omnipod pod: 4 days
-    * Loop/FreeAPS with Medtronic 523, 554, 723 or 754 pumps  - 1 day (due to MySentry feature, EmaLink uses much more power, which impacts the battery life)
-    * Loop/FreeAPS with other Medtronic pumps: 3 days
-    * AndroidAPS with Omnipod pods: 4 days
-    * AndroidAPS with Medtronic pumps: 2 days
-
-![Case](https://github.com/sks01/EmaLink/blob/master/pictures/XS.png)
-
-**EmaLink 3XS** (PCB: 3.9, Battery: 250mAh) 
-*	Size: 42x40x11mm, square [Tinkercad](https://www.tinkercad.com/things/354TEb6AY1d)
-*	Weight: 21g
+    * Loop/FreeAPS with Omnipod pod: 7 days
+    * Loop/FreeAPS with Medtronic 523, 554, 723 or 754 pumps  - 16-18 hours (due to MySentry feature, EmaLink uses much more power, which impacts the battery life); With MySentry disabled, battery life increases to 5 days
+    * Loop/FreeAPS with other Medtronic pumps: 5 days
+    * AndroidAPS with Omnipod pods: 7 days
+    * AndroidAPS with Medtronic pumps: 3 days
+    
+**EmaLink Nano** (PCB: 5.x, Battery: 250mAh)
+![Case](https://github.com/sks01/EmaLink/blob/master/pictures/Nano.png)
+*	This is the smallest version of EmaLink, specially made to be used as a necklace. The antenna was optimized for keeping it close to your body. It still have a good range while kept around you (nightstand, desk) but for maximum range you should opt for Standard or Micro. [Tinkercad](https://www.tinkercad.com/things/bE5cdci4nX8)
+*  Size: 41x31x12mm dustproof, splash resistant
+*	Weight: 18g
 *	Battery life: 
-    * Loop/FreeAPS with Omnipod pod: 3 days
-    * Loop/FreeAPS with Medtronic 523, 554, 723 or 754 pumps  - 16-18 hours (due to MySentry feature, EmaLink uses much more power, which impacts the battery life)
-    * Loop/FreeAPS with other Medtronic pumps: 2.5 days
-    * AndroidAPS with Omnipod pods: 3 days
-    * AndroidAPS with Medtronic pumps: 1.5 days
+    * Loop/FreeAPS with Omnipod pod: 7 days
+    * Loop/FreeAPS with Medtronic 523, 554, 723 or 754 pumps  - 16-18 hours (due to MySentry feature, EmaLink uses much more power, which impacts the battery life); With MySentry disabled, battery life increases to 5 days
+    * Loop/FreeAPS with other Medtronic pumps: 5 days
+    * AndroidAPS with Omnipod pods: 7 days
+    * AndroidAPS with Medtronic pumps: 3 days
 
-![Case](https://github.com/sks01/EmaLink/blob/master/pictures/3XS.png)
-![Case](https://github.com/sks01/EmaLink/blob/master/pictures/Medium_XS_3XS.png)
+![versions](https://github.com/sks01/EmaLink/blob/master/pictures/Compare1.png)
+![versions](https://github.com/sks01/EmaLink/blob/master/pictures/Compare2.png)
+![versions](https://github.com/sks01/EmaLink/blob/master/pictures/Compare3.png)
 
 ### Hardware
 
 See the [hardware](https://github.com/sks01/emalink/tree/master/hardware) directory for design files to build it. The hardware design is released under [Creative Commons Share-alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/).  
 
-![PCB_top_Omnipod](https://github.com/sks01/EmaLink/blob/master/pictures/PCB_top_Omnipod.png)
-![PCB_top_Medtronic](https://github.com/sks01/EmaLink/blob/master/pictures/PCB_top_Medtronic.png)
-![PCB_back](https://github.com/sks01/EmaLink/blob/master/pictures/PCB_back.png)
+![PCB_v4.0](https://github.com/sks01/EmaLink/blob/master/pictures/EL_PCB_v4.0.png)
+![PCB_v5.0](https://github.com/sks01/EmaLink/blob/master/pictures/Nano_PCB.png)
 
 ### Firmware
 

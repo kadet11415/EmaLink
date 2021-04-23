@@ -63,7 +63,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 3750 7450 3750
 $Comp
-L Device:C C13
+L board_v9-rescue:C-Device C13
 U 1 1 79637687
 P 10600 9000
 F 0 "C13" H 10750 9000 59  0000 L BNN
@@ -118,7 +118,7 @@ F 3 "" H 5650 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
+L board_v9-rescue:C-Device C10
 U 1 1 514C2054
 P 8450 6000
 F 0 "C10" H 8510 6015 59  0000 L BNN
@@ -129,7 +129,7 @@ F 3 "" H 8450 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C8
+L board_v9-rescue:C-Device C8
 U 1 1 FEED78A6
 P 7850 6000
 F 0 "C8" H 7910 6015 59  0000 L BNN
@@ -162,7 +162,7 @@ F 3 "" H 8450 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R7
+L board_v9-rescue:R-Device R7
 U 1 1 68512192
 P 6850 5750
 F 0 "R7" H 6700 5809 59  0000 L BNN
@@ -184,7 +184,7 @@ F 3 "" H 6850 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
+L board_v9-rescue:C-Device C9
 U 1 1 9153FA9E
 P 8150 2400
 F 0 "C9" H 8210 2415 59  0000 L BNN
@@ -250,7 +250,7 @@ F 3 "" H 4150 8650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
+L board_v9-rescue:C-Device C4
 U 1 1 1F0AD0D9
 P 5250 1900
 F 0 "C4" H 5290 1925 59  0000 L BNN
@@ -294,7 +294,7 @@ F 3 "" H 9700 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C12
+L board_v9-rescue:C-Device C12
 U 1 1 E4A116F1
 P 9700 5550
 F 0 "C12" H 9740 5575 59  0000 L BNN
@@ -316,7 +316,7 @@ F 3 "" H 9700 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L1
+L board_v9-rescue:L-Device L1
 U 1 1 DCE22FAF
 P 12250 5300
 F 0 "L1" V 12339 5459 59  0000 R TNN
@@ -335,7 +335,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 4750 4750 4750
 $Comp
-L Device:C C14
+L board_v9-rescue:C-Device C14
 U 1 1 5CDD50FA
 P 13000 5500
 F 0 "C14" H 13200 5550 59  0000 L BNN
@@ -369,7 +369,7 @@ Wire Wire Line
 	9700 5050 9700 5300
 Connection ~ 9700 5300
 $Comp
-L Connector:USB_B_Micro J3
+L board_v9-rescue:USB_B_Micro-Connector J3
 U 1 1 5CE16639
 P 8350 7450
 F 0 "J3" H 8405 7917 50  0000 C CNN
@@ -398,7 +398,7 @@ Connection ~ 10600 8850
 Wire Wire Line
 	10600 8850 11600 8850
 $Comp
-L Device:C C11
+L board_v9-rescue:C-Device C11
 U 1 1 5CE3E52F
 P 8950 7550
 F 0 "C11" H 8990 7575 59  0000 L BNN
@@ -425,7 +425,7 @@ Wire Wire Line
 	8950 7400 8950 7250
 Connection ~ 8950 7250
 $Comp
-L Switch:SW_SPDT SW1
+L board_v9-rescue:SW_SPDT-Switch SW1
 U 1 1 5CE4D94B
 P 9300 8850
 F 0 "SW1" H 9300 9135 50  0000 C CNN
@@ -450,7 +450,7 @@ Wire Wire Line
 Wire Wire Line
 	8450 4850 8450 5300
 $Comp
-L Device:Crystal_GND24 Y1
+L board_v9-rescue:Crystal_GND24-Device Y1
 U 1 1 5CDB6E17
 P 8150 5300
 F 0 "Y1" H 8341 5346 50  0000 L CNN
@@ -497,7 +497,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 8850 10600 8850
 $Comp
-L Connector:TestPoint TP3
+L board_v9-rescue:TestPoint-Connector TP3
 U 1 1 5CF0E3C2
 P 4550 5050
 F 0 "TP3" H 4608 5170 50  0000 L CNN
@@ -512,7 +512,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 5150 4750 5150
 $Comp
-L Connector:TestPoint TP2
+L board_v9-rescue:TestPoint-Connector TP2
 U 1 1 5CF120CF
 P 4350 5150
 F 0 "TP2" H 4408 5270 50  0000 L CNN
@@ -527,7 +527,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 5250 4350 5150
 $Comp
-L Connector:TestPoint TP1
+L board_v9-rescue:TestPoint-Connector TP1
 U 1 1 5CF15C93
 P 4100 5250
 F 0 "TP1" H 4158 5370 50  0000 L CNN
@@ -540,7 +540,7 @@ $EndComp
 Wire Wire Line
 	4100 5450 4100 5250
 $Comp
-L Connector:TestPoint TP4
+L board_v9-rescue:TestPoint-Connector TP4
 U 1 1 5CF1DBBD
 P 6700 7950
 F 0 "TP4" H 6758 8070 50  0000 L CNN
@@ -551,7 +551,7 @@ F 3 "~" H 6900 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP7
+L board_v9-rescue:TestPoint-Connector TP7
 U 1 1 5CF1DC51
 P 7200 8050
 F 0 "TP7" H 7258 8170 50  0000 L CNN
@@ -562,7 +562,7 @@ F 3 "~" H 7400 8050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP5
+L board_v9-rescue:TestPoint-Connector TP5
 U 1 1 5CF1DCAF
 P 6000 8350
 F 0 "TP5" H 6058 8470 50  0000 L CNN
@@ -577,7 +577,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 8350 6000 8450
 $Comp
-L Connector:TestPoint TP10
+L board_v9-rescue:TestPoint-Connector TP10
 U 1 1 5CF321C5
 P 11600 8700
 F 0 "TP10" H 11658 8820 50  0000 L CNN
@@ -588,7 +588,7 @@ F 3 "~" H 11800 8700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP12
+L board_v9-rescue:TestPoint-Connector TP12
 U 1 1 5CF32281
 P 12150 9000
 F 0 "TP12" H 12208 9120 50  0000 L CNN
@@ -628,7 +628,7 @@ Wire Wire Line
 	10900 5300 10700 5300
 Connection ~ 10700 5300
 $Comp
-L Device:R R8
+L board_v9-rescue:R-Device R8
 U 1 1 5CFDD273
 P 12700 5600
 F 0 "R8" H 13000 5650 59  0000 L BNN
@@ -639,7 +639,7 @@ F 3 "" H 12700 5600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R12
+L board_v9-rescue:R-Device R12
 U 1 1 5CFDD32B
 P 12700 6150
 F 0 "R12" H 12450 6200 59  0000 L BNN
@@ -716,7 +716,7 @@ F 3 "" H 5650 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L2
+L board_v9-rescue:L-Device L2
 U 1 1 5D2E806D
 P 3450 8500
 F 0 "L2" V 3539 8659 59  0000 R TNN
@@ -727,7 +727,7 @@ F 3 "" H 3450 8500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C3
+L board_v9-rescue:C-Device C3
 U 1 1 5D2E8612
 P 3650 8450
 F 0 "C3" H 3690 8475 59  0000 L BNN
@@ -756,7 +756,7 @@ Connection ~ 3650 8200
 Wire Wire Line
 	3650 8600 3650 8700
 $Comp
-L Device:C C6
+L board_v9-rescue:C-Device C6
 U 1 1 5D31BC01
 P 6250 1850
 F 0 "C6" H 6310 1865 59  0000 L BNN
@@ -787,7 +787,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 4650 3650 7250
 $Comp
-L Device:L L5
+L board_v9-rescue:L-Device L5
 U 1 1 5D2E2E4D
 P 5550 1200
 F 0 "L5" V 5639 1359 59  0000 R TNN
@@ -852,7 +852,7 @@ Wire Wire Line
 	6850 1650 6850 2900
 Connection ~ 6250 1650
 $Comp
-L Device:C C1
+L board_v9-rescue:C-Device C1
 U 1 1 5D32D383
 P 4350 1850
 F 0 "C1" H 4410 1865 59  0000 L BNN
@@ -876,7 +876,7 @@ F 3 "" H 4350 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L board_v9-rescue:C-Device C2
 U 1 1 5D32D779
 P 5800 1850
 F 0 "C2" H 5860 1865 59  0000 L BNN
@@ -887,22 +887,22 @@ F 3 "" H 5800 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L3
+L board_v9-rescue:L-Device L3
 U 1 1 5D2F8CF1
 P 8400 3850
 F 0 "L3" H 8453 3896 50  0000 L CNN
-F 1 "6.8nH" H 8453 3805 50  0000 L CNN
+F 1 "8.2nH" H 8453 3805 50  0000 L CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 8400 3850 50  0001 C CNN
 F 3 "~" H 8400 3850 50  0001 C CNN
 	1    8400 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L4
+L board_v9-rescue:L-Device L4
 U 1 1 5D2F8DF7
 P 8700 3650
 F 0 "L4" V 8522 3650 50  0000 C CNN
-F 1 "12nH" V 8613 3650 50  0000 C CNN
+F 1 "30nH" V 8613 3650 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 8700 3650 50  0001 C CNN
 F 3 "~" H 8700 3650 50  0001 C CNN
 	1    8700 3650
@@ -937,7 +937,7 @@ LED1_OUT
 Wire Wire Line
 	4150 7750 4350 7750
 $Comp
-L Connector:TestPoint TP8
+L board_v9-rescue:TestPoint-Connector TP8
 U 1 1 5D35A1CC
 P 1900 7400
 F 0 "TP8" H 1958 7520 50  0000 L CNN
@@ -961,7 +961,7 @@ $EndComp
 Wire Wire Line
 	1900 7550 1900 7400
 $Comp
-L Connector:TestPoint TP9
+L board_v9-rescue:TestPoint-Connector TP9
 U 1 1 5D361FDF
 P 2400 7400
 F 0 "TP9" H 2458 7520 50  0000 L CNN
@@ -985,7 +985,7 @@ $EndComp
 Wire Wire Line
 	2400 7650 2400 7400
 $Comp
-L Connector:TestPoint TP18
+L board_v9-rescue:TestPoint-Connector TP18
 U 1 1 5D389A5D
 P 4100 7100
 F 0 "TP18" H 4158 7220 50  0000 L CNN
@@ -1001,7 +1001,7 @@ Connection ~ 4100 7250
 Wire Wire Line
 	4100 7250 4350 7250
 $Comp
-L Connector:TestPoint TP17
+L board_v9-rescue:TestPoint-Connector TP17
 U 1 1 5D391F01
 P 3900 6800
 F 0 "TP17" H 3958 6920 50  0000 L CNN
@@ -1017,7 +1017,7 @@ Connection ~ 3900 7450
 Wire Wire Line
 	3900 7450 4350 7450
 $Comp
-L Connector:TestPoint TP15
+L board_v9-rescue:TestPoint-Connector TP15
 U 1 1 5D39A60C
 P 2850 6600
 F 0 "TP15" H 2908 6720 50  0000 L CNN
@@ -1033,7 +1033,7 @@ Wire Wire Line
 	2850 7550 3450 7550
 Connection ~ 3450 7550
 $Comp
-L Connector:TestPoint TP16
+L board_v9-rescue:TestPoint-Connector TP16
 U 1 1 5D3A3290
 P 3050 7100
 F 0 "TP16" H 3108 7220 50  0000 L CNN
@@ -1094,7 +1094,7 @@ VBAT
 Wire Wire Line
 	11850 7350 11700 7350
 $Comp
-L Device:LED D3
+L board_v9-rescue:LED-Device D3
 U 1 1 5D7901B9
 P 10450 7350
 F 0 "D3" V 10395 7428 50  0000 L CNN
@@ -1105,7 +1105,7 @@ F 3 "~" H 10450 7350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R5
+L board_v9-rescue:R-Device R5
 U 1 1 5D7905B6
 P 10700 7600
 F 0 "R5" H 10500 7650 59  0000 L BNN
@@ -1144,7 +1144,7 @@ $EndComp
 Wire Wire Line
 	11350 8050 11350 8000
 $Comp
-L Device:R R6
+L board_v9-rescue:R-Device R6
 U 1 1 5D7C0B57
 P 11900 7750
 F 0 "R6" H 12100 7850 59  0000 L BNN
@@ -1168,7 +1168,7 @@ Wire Wire Line
 Text GLabel 1700 8500 0    50   Input ~ 0
 LED1_OUT
 $Comp
-L Device:LED D5
+L board_v9-rescue:LED-Device D5
 U 1 1 5D84A387
 P 2450 8500
 F 0 "D5" V 2395 8578 50  0000 L CNN
@@ -1185,7 +1185,7 @@ Wire Wire Line
 Text GLabel 1700 8150 0    50   Input ~ 0
 LED2_OUT
 $Comp
-L Device:LED D4
+L board_v9-rescue:LED-Device D4
 U 1 1 5D880315
 P 2450 8150
 F 0 "D4" V 2395 8228 50  0000 L CNN
@@ -1196,7 +1196,7 @@ F 3 "~" H 2450 8150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R9
+L board_v9-rescue:R-Device R9
 U 1 1 5D8803F5
 P 2050 8150
 F 0 "R9" H 1850 8200 59  0000 L BNN
@@ -1213,7 +1213,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 7150 4200 6350
 $Comp
-L Device:R R11
+L board_v9-rescue:R-Device R11
 U 1 1 5D996758
 P 5000 9400
 F 0 "R11" H 4650 9450 59  0000 L BNN
@@ -1224,7 +1224,7 @@ F 3 "" H 5000 9400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R13
+L board_v9-rescue:R-Device R13
 U 1 1 5D996866
 P 5000 9950
 F 0 "R13" H 4650 10000 59  0000 L BNN
@@ -1282,7 +1282,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 4350 4650 4350
 $Comp
-L Device:C C7
+L board_v9-rescue:C-Device C7
 U 1 1 5D80F917
 P 4600 9950
 F 0 "C7" H 4750 9950 59  0000 L BNN
@@ -1355,7 +1355,7 @@ F 3 "" H 3900 8800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C5
+L board_v9-rescue:C-Device C5
 U 1 1 5D2E8378
 P 3900 8450
 F 0 "C5" H 3960 8465 59  0000 L BNN
@@ -1378,7 +1378,7 @@ Wire Wire Line
 	4350 8300 4350 8350
 Connection ~ 3900 8300
 $Comp
-L Device:C C16
+L board_v9-rescue:C-Device C16
 U 1 1 5DDD4C1F
 P 4000 1850
 F 0 "C16" H 4060 1865 59  0000 L BNN
@@ -1389,7 +1389,7 @@ F 3 "" H 4000 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C15
+L board_v9-rescue:C-Device C15
 U 1 1 5DDD4CC3
 P 3600 1850
 F 0 "C15" H 3660 1865 59  0000 L BNN
@@ -1446,11 +1446,11 @@ Connection ~ 2750 8200
 Wire Wire Line
 	2750 8200 2750 8500
 $Comp
-L Device:L L6
+L board_v9-rescue:L-Device L6
 U 1 1 5EF37A8A
 P 8950 3850
-F 0 "L6" V 8772 3850 50  0000 C CNN
-F 1 "12nH" V 8863 3850 50  0000 C CNN
+F 0 "L6" H 8772 3850 50  0000 C CNN
+F 1 "DO NOT INSTALL" H 8600 4000 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 8950 3850 50  0001 C CNN
 F 3 "~" H 8950 3850 50  0001 C CNN
 	1    8950 3850
